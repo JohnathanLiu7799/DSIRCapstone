@@ -2,5 +2,5 @@
 /notebooks/__pycache__
 
 /ipynb_checkpoints
-/notebooks/ipynb_checkpoints
-/datasets/ipynb_checkpoints
+/notebooks/.ipynb_checkpoints
+/datasets/.ipynb_checkpoints
