@@ -99,7 +99,7 @@ a to match Top 4 players with non Top 4 Players.
 We also have the above tree to explain how the model determines a player's 
 relevancy score. 
 
-![Feature Importance](figures/feaeture_importance.png)
+![Feature Importance](figures/feature_importance.png)
 
 We also have a feature importances that show that data such as damage delt
 and gold are far more significant than composition or units. A model with 
