@@ -67,7 +67,7 @@ Enchanters are only 8th in terms of number of trait counts.
 Scraps seem to hold 1st place relatively well, presumably because there are a decent
 amount of scrap units at early tiers that allow them to be played for an opener.
 
-![Unit Count Histogram]('figures/traits_count') 
+![Unit Count Histogram](figures/traits_count.png) 
 
 After breaking the traits down by tier count however, tiers being certain numbers of units
 where traits give synergistic effects to the entire team, something much closer to what most people
