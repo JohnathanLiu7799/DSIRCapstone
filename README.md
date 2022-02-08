@@ -73,7 +73,7 @@ After breaking the traits down by tier count however, tiers being certain number
 where traits give synergistic effects to the entire team, something much closer to what most people
 see as the meta appears. 
 
-INSERT IMAGE 
+![Tier Count Histogram](figures/trait_tiers.png)
 
 This is likely due to many of the meta dominant units being restricted to higher tiers, therefore
 by unit count alone, they will often be played less, despite their strength.
@@ -94,12 +94,12 @@ All: 0.8405
 With a NDCG this high, I believe it is possible to push into production with 
 a to match Top 4 players with non Top 4 Players.
 
-INSERT TREE 
+![Decision Tree](figures/tree.png)
 
 We also have the above tree to explain how the model determines a player's 
 relevancy score. 
 
-INSERT FEATURE IMPORTANCE
+![Feature Importance](figures/tree.png)
 
 We also have a feature importances that show that data such as damage delt
 and gold are far more significant than composition or units. A model with 
