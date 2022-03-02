@@ -21,19 +21,13 @@ come with to have synergistic effects and eventually eliminate the other
 players to be the last one standing.
 ## Problem Statement
 
-How good of a model can we create to differentiate between posts from 
+With any online multiplayer game, player experience is always a core factor
+that directly affects player retention, engagement, and churn. Our model will aim
+to increase player experience by minimizing player pair skill differences, creating
+closer competition.
 
-- r/MovieDetails
-- r/ShittyMovieDetails
-
-In the interest of understanding ironic and sarcastic speech intended to imitate 
-more genuine content. This is the first step in a longer process and should be understood as such.
-
-When done succesfully, this can be used by companies to better understand online sentiments,
-many of which are buried under layers of irony, especially in today's online culture.
-
-We will be optimizing for accuracy as there is no substantial difference between a 
-type I or type II error in this case.
+We will be aiming to maximize NDCG when it comes to placements and then using those placements 
+to minimize gap.
 
 
 ## Data Dictionary
@@ -67,13 +61,13 @@ Enchanters are only 8th in terms of number of trait counts.
 Scraps seem to hold 1st place relatively well, presumably because there are a decent
 amount of scrap units at early tiers that allow them to be played for an opener.
 
-![Unit Count Histogram](figures/traits_count.png) 
+INSERT IMAGE 
 
 After breaking the traits down by tier count however, tiers being certain numbers of units
 where traits give synergistic effects to the entire team, something much closer to what most people
 see as the meta appears. 
 
-![Tier Count Histogram](figures/trait_tiers.png)
+INSERT IMAGE 
 
 This is likely due to many of the meta dominant units being restricted to higher tiers, therefore
 by unit count alone, they will often be played less, despite their strength.
@@ -94,12 +88,12 @@ All: 0.8405
 With a NDCG this high, I believe it is possible to push into production with 
 a to match Top 4 players with non Top 4 Players.
 
-![Decision Tree](figures/tree.png)
+INSERT TREE 
 
 We also have the above tree to explain how the model determines a player's 
 relevancy score. 
 
-![Feature Importance](figures/feature_importance.png)
+INSERT FEATURE IMPORTANCE
 
 We also have a feature importances that show that data such as damage delt
 and gold are far more significant than composition or units. A model with 
